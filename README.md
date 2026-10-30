@@ -23,6 +23,7 @@ verified, and which numbers were actually reproduced.
 | # | Paper | Year | Area | Code | Status | Headline result |
 |---|---|---|---|---|---|---|
 | 1 | [Attention Is All You Need](https://arxiv.org/abs/1706.03762) | 2017 | NLP / sequence modelling | [code](https://github.com/bartuonder/attention-is-all-you-need) · [notes](papers/attention-is-all-you-need.md) | 🧪 Implemented & tested | base 63.0M params (paper 65M); WMT BLEU not run |
+| 2 | [Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385) | 2016 | Computer vision | [code](https://github.com/bartuonder/deep-residual-learning-for-image-recognition) · [notes](papers/deep-residual-learning.md) | ✅ Reproduced (CIFAR-10) | ResNet-110: 6.42% error (paper 6.43%) |
 
 Per-paper write-ups (paper → code map, results, deviations) are in [`papers/`](papers/).
 New entries start from [`papers/_template.md`](papers/_template.md).
