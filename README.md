@@ -22,6 +22,7 @@ verified, and which numbers were actually reproduced.
 
 | # | Paper | Year | Area | Code | Status | Headline result |
 |---|---|---|---|---|---|---|
+| 1 | [Attention Is All You Need](https://arxiv.org/abs/1706.03762) | 2017 | NLP / sequence modelling | [code](https://github.com/bartuonder/attention-is-all-you-need) · [notes](papers/attention-is-all-you-need.md) | 🧪 Implemented & tested | base 63.0M params (paper 65M); WMT BLEU not run |
 
 Per-paper write-ups (paper → code map, results, deviations) are in [`papers/`](papers/).
 New entries start from [`papers/_template.md`](papers/_template.md).
